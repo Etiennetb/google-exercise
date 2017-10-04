@@ -72,7 +72,7 @@ footer
     border: 1px solid silver;
     border-radius: 2px;
     box-shadow: 2px 2px 2px silver;
-    width: 25%;
+    width: 30%;
 	min-width: 500px; 
 	margin-top: 2em;
 	margin-bottom: 2em;
@@ -80,9 +80,13 @@ footer
 
 input
 {
-	background-color: #FFF;
-	border: 0 solid black;
-	word-wrap: overflow;	
+	font: 16px arial,sans-serif;
+    line-height: 34px;
+    border: 0 solid white;
+    margin: 0px;
+    padding-bottom: 2px;
+    background-color: transparent;
+    min-width: 480px;
 }
 
 #logo_pays
@@ -151,7 +155,7 @@ footer a:active
 button[type=button1]
 {
 
-	height: 36px;
+	height: 32px;
     line-height: 27px;
 	align-items: flex-start;
     box-sizing: border-box;
@@ -164,7 +168,6 @@ button[type=button1]
     color: #757575;
     cursor: default;
     font-family: arial,sans-serif;
-    font-size: 13px;
     font-weight: bold;
     margin: 11px 4px;
     min-width: 54px;
@@ -189,9 +192,15 @@ header button[type=button1]
 #app_button
 {
     height: 30px;
-    width: 30px;
+    width: 30px; 
     background-repeat: no-repeat;
     white-space: nowrap;
+    opacity: 0.5
+}
+
+#app_button:hover
+{
+	opacity: 1
 }
 
 #logo_google
