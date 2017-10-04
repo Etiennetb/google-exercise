@@ -6,6 +6,7 @@ body
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	font-family: arial,sans-serif;
 
 }
 
@@ -15,6 +16,10 @@ header
 	flex-direction: row;
 	justify-content: flex-end;
 	align-items: center;
+    text-align: right;
+    min-width: 244px;
+    color: #000;
+    font-size: 13px;	
 
 }
 
@@ -41,6 +46,11 @@ footer
 
 }
 
+.headlink
+{
+	padding: 0.8em
+}
+
 #buttons
 {
 	display: flex;
@@ -53,10 +63,26 @@ footer
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+	justify-content: space-between;
 	box-sizing: 403px 39px;
     height: 100%;
     overflow: hidden;
     padding: 5px 9px 0 16px;
+    background-color: #FFF;
+    border: 1px solid silver;
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px silver;
+    width: 25%;
+	min-width: 500px; 
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+input
+{
+	background-color: #FFF;
+	border: 0 solid black;
+	word-wrap: overflow;	
 }
 
 #logo_pays
@@ -81,15 +107,29 @@ a:hover
 
 }
 
+header a
+{
+	text-decoration: none;
+	color: #000;
+
+}
+
+header a:hover
+{
+	text-decoration: underline;
+
+}
+
+
 footer a 
 {
     color: #666;
     margin: 2px 10px 0;
 }
 
-footer a:visited 
+footer a:active
 {
-    color: #609;
+    color: #dd4b39;
 }
 
 #flside
@@ -106,6 +146,8 @@ footer a:visited
 	align-items: center;
 
 }
+
+
 button[type=button1]
 {
 
@@ -130,7 +172,14 @@ button[type=button1]
     text-align: center;
     display: inline-block;
 }
-button[type=button1]:hover
+
+header button[type=button1]
+{
+    color: white;
+    background-color: #4387fd;
+    border-radius: 4px
+}
+#buttons button[type=button1]:hover
 {
 	border: 1px solid #c6c6c6;
     box-shadow: 0 1px 1px rgba(0,0,0,0.1);
@@ -141,8 +190,6 @@ button[type=button1]:hover
 {
     height: 30px;
     width: 30px;
-    background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
-    background-size: 528px 68px;
     background-repeat: no-repeat;
     white-space: nowrap;
 }
@@ -155,3 +202,4 @@ button[type=button1]:hover
     height:92px;
     width:272px
 }
+
