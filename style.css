@@ -14,13 +14,20 @@ header
 {
 	display: flex;
 	flex-direction: row;
-	justify-content: flex-end;
+	justify-content: space-between;
 	align-items: center;
     text-align: right;
     min-width: 244px;
     color: #000;
     font-size: 13px;	
 
+}
+
+#navdroite
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 section
@@ -174,6 +181,20 @@ button[type=button1]
     padding: 0 16px;
     text-align: center;
     display: inline-block;
+}
+
+button[type=button2]
+{
+    display : flex;
+    color: white;
+    background-color: #4387fd;
+    border-radius: 4px
+    min-width: 100px;
+    min-height: 50px;
+    text-align: center;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-weight: bold, 30px;
 }
 
 header button[type=button1]
