@@ -1,4 +1,5 @@
 
+
 document.getElementById("navdroite").style.display = "none";
 document.querySelector("footer").style.display = "none";
 document.querySelector("section").style.display = "none";
@@ -19,7 +20,15 @@ document.getElementById("navgauche").style.display = "none";
     alert("Hey\n le site xxxvidsxxx est trop bien.\n Viens dessus stp please");
 }*/
 
-setTimeout (function()
-	{alert("Hey\n le site xxxvidsxxx est trop bien.\n Viens dessus stp please");},10000);
+/*setTimeout (function()
+	{alert("Hey\n le site xxxvidsxxx est trop bien.\n Viens dessus stp please");},10000);*/
 
+let search = document.getElementById("rustine").value;
+
+function reDirect ()
+{
+	let search = document.getElementById("rustine").value;
+	window.location = ("https://www.google.fr/search?q="+search);
+
+}
 
