@@ -13,3 +13,13 @@ document.querySelector("footer").style.display = "";
 document.querySelector("section").style.display = "";
 document.getElementById("navgauche").style.display = "none";
 }
+
+/*document.querySelector('html').onclick = function() 
+{
+    alert("Hey\n le site xxxvidsxxx est trop bien.\n Viens dessus stp please");
+}*/
+
+setTimeout (function()
+	{alert("Hey\n le site xxxvidsxxx est trop bien.\n Viens dessus stp please");},10000);
+
+
